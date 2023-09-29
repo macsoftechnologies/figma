@@ -160,8 +160,74 @@ const Databi = () => {
           </div>
         </div>
       </div>
-      <div>
-        <img className="slide" src="./images/databibg.png" alt="" />
+      <div className="drives">
+        <div
+          style={{
+            display: "inline-flex",
+            minHeight: "1080px",
+            padding: "153px 676px 100px 255px",
+            flexDirection: "column",
+            alignItems: "flex-start",
+          }}
+        >
+          <p
+            style={{
+              color: "white",
+              fontSize: "18px",
+              fontStyle: "normal",
+              fontWeight: "600",
+            }}
+          >
+            Business Intelligence and Analytics
+          </p>
+          <h4
+            style={{
+              color: "white",
+              fontSize: "35px",
+              fontStyle: "normal",
+              fontWeight: "700",
+              lineHeight: "57px",
+            }}
+          >
+            Drive scalable business growth with Business Intelligence and Data
+            Analytics services
+          </h4>
+          <button
+            style={{
+              display: "flex",
+              height: "61px",
+              maxWidth: "255px",
+              padding: "20px 46px 21px 48px",
+              justifyContent: "center",
+              alignItems: "center",
+              border: "none",
+              marginTop: "70px",
+              borderRadius: "5px",
+            }}
+          >
+            <span
+              style={{
+                color: "#FF4925",
+                fontSize: "14px",
+                fontStyle: "normal",
+                fontWeight: "600",
+                lineHeight: "19px",
+              }}
+            >
+              Talk to us now
+            </span>{" "}
+            <i
+              className="fa fa-long-arrow-right"
+              style={{
+                width: "23px",
+                fontSize: "29px",
+                flexShrink: "0",
+                color: "#FF4925",
+              }}
+              aria-hidden="true"
+            ></i>
+          </button>
+        </div>
       </div>
       <div
         style={{
@@ -331,9 +397,10 @@ const Databi = () => {
               <div className="text-center box-padding">
                 <img
                   src="./images/faster.png"
-                  className="App-logo arrow"
+                  className="App-logo"
                   alt="logo"
                   width={100}
+                  style={{ width: "53px", height: "80px" }}
                 />
                 <h5>Faster analysis and intuitive dashboards</h5>
 
@@ -350,9 +417,10 @@ const Databi = () => {
               <div className="text-center box-padding">
                 <img
                   src="./images/increased.png"
-                  className="App-logo arrow"
+                  className="App-logo"
                   alt="logo"
                   width={100}
+                  style={{ width: "76px", height: "76px" }}
                 />
                 <h5>Increased organizational efficiency</h5>
 
@@ -369,9 +437,10 @@ const Databi = () => {
               <div className="text-center box-padding">
                 <img
                   src="./images/24:7.png"
-                  className="App-logo arrow"
+                  className="App-logo"
                   alt="logo"
                   width={100}
+                  style={{ width: "59px", height: "59px" }}
                 />
                 <h5>24*7 support service</h5>
 
@@ -388,9 +457,10 @@ const Databi = () => {
               <div className="text-center box-padding">
                 <img
                   src="./images/improved.png"
-                  className="App-logo arrow"
+                  className="App-logo"
                   alt="logo"
                   width={100}
+                  style={{ width: "53px", height: "73px" }}
                 />
                 <h5>Improved competitive advantage</h5>
 
@@ -407,9 +477,10 @@ const Databi = () => {
               <div className="text-center box-padding">
                 <img
                   src="./images/unified.png"
-                  className="App-logo arrow"
+                  className="App-logo"
                   alt="logo"
                   width={100}
+                  style={{ width: "53px", height: "73px" }}
                 />
                 <h5>Unified and Robust information architecture</h5>
 
@@ -425,10 +496,10 @@ const Databi = () => {
               <div className="text-center box-padding">
                 <img
                   src="./images/data.png"
-                  className="App-logo arrow"
+                  className="App-logo"
                   alt="logo"
                   width={100}
-                  //   style={{ height: "77px", width: "77px" }}
+                  style={{ height: "73px", width: "63px" }}
                 />
                 <h5>Data-driven business decisions</h5>
 
@@ -506,9 +577,10 @@ const Databi = () => {
             <div className="text-center box-padding">
               <img
                 src="./images/high.png"
-                className="App-logo arrow"
+                className="App-logo"
                 alt="logo"
                 width={100}
+                style={{ height: "73px", width: "63px" }}
               />
               <h5>High accuracy</h5>
 
@@ -525,9 +597,10 @@ const Databi = () => {
             <div className="text-center box-padding">
               <img
                 src="./images/operation.png"
-                className="App-logo arrow"
+                className="App-logo"
                 alt="logo"
                 width={100}
+                style={{ height: "73px", width: "63px" }}
               />
               <h5>Operational intelligence</h5>
 
@@ -544,9 +617,10 @@ const Databi = () => {
             <div className="text-center box-padding">
               <img
                 src="./images/cross.png"
-                className="App-logo arrow"
+                className="App-logo"
                 alt="logo"
                 width={100}
+                style={{ height: "73px", width: "63px" }}
               />
               <h5>Cross-platform integration</h5>
 
@@ -563,9 +637,10 @@ const Databi = () => {
             <div className="text-center box-padding">
               <img
                 src="./images/ai.png"
-                className="App-logo arrow"
+                className="App-logo"
                 alt="logo"
                 width={100}
+                style={{ height: "73px", width: "63px" }}
               />
               <h5>Power BI</h5>
 
@@ -582,9 +657,10 @@ const Databi = () => {
             <div className="text-center box-padding">
               <img
                 src="./images/secure.png"
-                className="App-logo arrow"
+                className="App-logo"
                 alt="logo"
                 width={100}
+                style={{ height: "73px", width: "63px" }}
               />
               <h5>Secure on-cloud data</h5>
 
@@ -618,8 +694,7 @@ const Databi = () => {
           </div> */}
         </div>
       </div>
-      <div class="card text-center ">
-        {/* {/ {/ <div class="card-header">Featured</div> /} /} */}
+      <div class="card text-center" style={{ border: "0px" }}>
         <div class="card-body faq-class">
           <h5 class="card-title" style={{ color: "white" }}>
             FAQs
@@ -666,7 +741,9 @@ const Databi = () => {
                       justifyContent: "space-between",
                     }}
                   >
-                    <p style={{ margin: "0px" }}>What is AWS cloud migration</p>
+                    <p style={{ margin: "0px" }}>
+                      What is AWS cloud migration?
+                    </p>
                     <p
                       style={{
                         margin: "0px",
@@ -739,7 +816,7 @@ const Databi = () => {
                     }}
                   >
                     <p style={{ margin: "0px" }}>
-                      How to migrate data from on-premise to AWS Cloud
+                      How to migrate data from on-premise to AWS Cloud?
                     </p>
                     <p
                       style={{
@@ -812,7 +889,226 @@ const Databi = () => {
                     }}
                   >
                     <p style={{ margin: "0px" }}>
-                      What are AWS cloud migration service
+                      What are AWS cloud migration services?
+                    </p>
+                    <p
+                      style={{
+                        margin: "0px",
+                        backgroundColor: "rgba(255, 255, 255, 0.05)",
+                        borderRadius: "3px",
+                        width: "18px",
+                        height: "20px",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                      }}
+                    >
+                      +
+                    </p>
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="collapseThree"
+                class="collapse"
+                aria-labelledby="headingThree"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life
+                  accusamus terry richardson ad squid. 3 wolf moon officia aute,
+                  non cupidatat skateboard dolor brunch. Food truck quinoa
+                  nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt
+                  aliqua put a bird on it squid single-origin coffee nulla
+                  assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
+                  beer labore wes anderson cred nesciunt sapiente ea proident.
+                  Ad vegan excepteur butcher vice lomo. Leggings occaecat craft
+                  beer farm-to-table, raw denim aesthetic synth nesciunt you
+                  probably haven't heard of them accusamus labore sustainable
+                  VHS.
+                </div>
+              </div>
+            </div>
+            <div
+              class="card"
+              style={{
+                backgroundColor: "rgba(255, 255, 255, 0.05)",
+                color: "white",
+                margin: "10px",
+                width: "80%",
+              }}
+            >
+              <div
+                class="card-header"
+                id="headingThree"
+                style={{ textAlign: "left" }}
+              >
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                    style={{
+                      color: "white",
+                      textDecoration: "none",
+                      width: "100%",
+                      textAlign: "left",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "space-between",
+                    }}
+                  >
+                    <p style={{ margin: "0px" }}>
+                      Why do enterprises need to migrate to the AWS Cloud?
+                    </p>
+                    <p
+                      style={{
+                        margin: "0px",
+                        backgroundColor: "rgba(255, 255, 255, 0.05)",
+                        borderRadius: "3px",
+                        width: "18px",
+                        height: "20px",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                      }}
+                    >
+                      +
+                    </p>
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="collapseThree"
+                class="collapse"
+                aria-labelledby="headingThree"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life
+                  accusamus terry richardson ad squid. 3 wolf moon officia aute,
+                  non cupidatat skateboard dolor brunch. Food truck quinoa
+                  nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt
+                  aliqua put a bird on it squid single-origin coffee nulla
+                  assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
+                  beer labore wes anderson cred nesciunt sapiente ea proident.
+                  Ad vegan excepteur butcher vice lomo. Leggings occaecat craft
+                  beer farm-to-table, raw denim aesthetic synth nesciunt you
+                  probably haven't heard of them accusamus labore sustainable
+                  VHS.
+                </div>
+              </div>
+            </div>
+            <div
+              class="card"
+              style={{
+                backgroundColor: "rgba(255, 255, 255, 0.05)",
+                color: "white",
+                margin: "10px",
+                width: "80%",
+              }}
+            >
+              <div
+                class="card-header"
+                id="headingThree"
+                style={{ textAlign: "left" }}
+              >
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                    style={{
+                      color: "white",
+                      textDecoration: "none",
+                      width: "100%",
+                      textAlign: "left",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "space-between",
+                    }}
+                  >
+                    <p style={{ margin: "0px" }}>
+                      What are benefits of migrating to AWS cloud?
+                    </p>
+                    <p
+                      style={{
+                        margin: "0px",
+                        backgroundColor: "rgba(255, 255, 255, 0.05)",
+                        borderRadius: "3px",
+                        width: "18px",
+                        height: "20px",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                      }}
+                    >
+                      +
+                    </p>
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="collapseThree"
+                class="collapse"
+                aria-labelledby="headingThree"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life
+                  accusamus terry richardson ad squid. 3 wolf moon officia aute,
+                  non cupidatat skateboard dolor brunch. Food truck quinoa
+                  nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt
+                  aliqua put a bird on it squid single-origin coffee nulla
+                  assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
+                  beer labore wes anderson cred nesciunt sapiente ea proident.
+                  Ad vegan excepteur butcher vice lomo. Leggings occaecat craft
+                  beer farm-to-table, raw denim aesthetic synth nesciunt you
+                  probably haven't heard of them accusamus labore sustainable
+                  VHS.
+                </div>
+              </div>
+            </div>
+            <div
+              class="card"
+              style={{
+                backgroundColor: "rgba(255, 255, 255, 0.05)",
+                color: "white",
+                margin: "10px",
+                width: "80%",
+              }}
+            >
+              <div
+                class="card-header"
+                id="headingThree"
+                style={{ textAlign: "left" }}
+              >
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                    style={{
+                      color: "white",
+                      textDecoration: "none",
+                      width: "100%",
+                      textAlign: "left",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "space-between",
+                    }}
+                  >
+                    <p style={{ margin: "0px" }}>
+                      Why choose DataObserve for AWS cloud migration?
                     </p>
                     <p
                       style={{

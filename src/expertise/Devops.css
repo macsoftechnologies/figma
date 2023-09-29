@@ -6,6 +6,16 @@
   font-weight: 500;
   border: 1px solid blue;
 }
+.empower {
+  background-image: url("../../public/images/empower.png");
+  height: 600px;
+  width: 100%;
+  font-size: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 50px;
+}
 
 .logo-main {
   width: 38px;
@@ -38,6 +48,13 @@
 }
 .slide {
   width: 100%;
+}
+.faq-class {
+  background-color: #1a4ab9;
+  border-radius: 10px 10px 0px 0px !important;
+  border: none;
+  height: fit-content;
+  padding: 67px;
 }
 .footer {
   width: 100%;

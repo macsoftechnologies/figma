@@ -1,7 +1,7 @@
 import React from "react";
-import "./Devops.css";
+import "./Aiml.css";
 
-const Devops = () => {
+const Aiml = () => {
   return (
     <div>
       <div className="bg-white">
@@ -160,7 +160,7 @@ const Devops = () => {
           </div>
         </div>
       </div>
-      <div className="empower">
+      <div className="enterprise">
         <div
           style={{
             display: "inline-flex",
@@ -178,7 +178,7 @@ const Devops = () => {
               fontWeight: "600",
             }}
           >
-            Cloud Transformation
+            AI & Machine Learning
           </p>
           <h4
             style={{
@@ -189,7 +189,8 @@ const Devops = () => {
               lineHeight: "57px",
             }}
           >
-            Empower Your Business Transformation Journey with Cloud Migration
+            Leverage the power of AI and ML to build Predictive Solutions that
+            upscale your business
           </h4>
           <button
             style={{
@@ -237,14 +238,12 @@ const Devops = () => {
         }}
       >
         <h4 style={{ textAlign: "center", fontWeight: 700, fontSize: "43px" }}>
-          Our Expertise in Cloud Migration Services
+          Our Expertise in AWS AI and ML Services
         </h4>
         <p style={{ textAlign: "center", marginTop: "10px", width: "755px" }}>
-          with over 40years of combined industry experience ,our cloud migration
-          services are tailored to set you on the path of operational excellence
-          and holistic growth. we transform organizations of every scale and
-          sizes with robust cloud ecosystems - moving IT infrastructure,
-          applications and processes
+          With over 40 years of combined industry experience, our Artificial
+          Intelligence services and Machine Learning services are tailored to
+          set you on the path of operational excellence and holistic growth.
         </p>
       </div>
       <div>
@@ -392,30 +391,22 @@ const Devops = () => {
         </div>
         <div className="container mt-3">
           <div className="row box">
-            <div
-              className="col-md-4"
-              style={{
-                justifyContent: "center",
-                alignItems: "center",
-                display: "flex",
-                flexDirection: "column",
-              }}
-            >
+            <div className="col-md-4">
               <div className="text-center box-padding">
                 <img
-                  src="./images/premium.png"
+                  src="./images/accurate.png"
                   className="App-logo"
                   alt="logo"
                   width={100}
-                  style={{ height: "73px", width: "53px" }}
+                  style={{ width: "53px", height: "80px" }}
                 />
-                <h5>Premium quality</h5>
+                <h5>Accurate forecasts</h5>
 
                 <p className="arrowtext text-justify">
-                  Our BI tools extract data from multiple sources and analyze it
-                  according to user queries. The intuitive dashboards allow
-                  non-technical users to understand the story behind the data
-                  without learning how to code.
+                  Insights uncovered by our ML solutions can help companies
+                  detect and prevent major risks before they occur. They can
+                  also anticipate demand spikes and market changes and prepare
+                  for them accordingly.
                 </p>
               </div>
             </div>
@@ -423,19 +414,19 @@ const Devops = () => {
             <div className="col-md-4">
               <div className="text-center box-padding">
                 <img
-                  src="./images/wide.png"
+                  src="images/personal.png"
                   className="App-logo"
                   alt="logo"
                   width={100}
-                  style={{ height: "79px", width: "59px" }}
+                  style={{ width: "76px", height: "76px" }}
                 />
-                <h5>Wide wealth of experience</h5>
+                <h5>Personalization</h5>
 
                 <p className="arrowtext text-justify">
-                  Business leaders can get a holistic view of the company and
-                  identify areas of opportunity with efficient BI. Access to
-                  business data helps increase the organizational efficiency of
-                  a company.
+                  Drive sales and close more deals by providing a more
+                  personalized experience to your customers. ML models can
+                  identify purchasing patterns and provide recommendations based
+                  on the inputs.
                 </p>
               </div>
             </div>
@@ -443,19 +434,18 @@ const Devops = () => {
             <div className="col-md-4">
               <div className="text-center box-padding">
                 <img
-                  src="./images/tech.png"
+                  src="./images/automation.png"
                   className="App-logo"
                   alt="logo"
                   width={100}
-                  style={{ height: "73px", width: "53px" }}
+                  style={{ width: "59px", height: "59px" }}
                 />
-                <h5>Futuristic tech stack</h5>
+                <h5>Predictive maintenance</h5>
 
                 <p className="arrowtext text-justify">
-                  Facing an issue or stuck with a problem regarding BI and
-                  Analytics Services? Connect with our support services at any
-                  time of the day, and our experts will help you with your
-                  queries.
+                  Collect data from sensors and equipment to identify patterns
+                  and anticipate the time that a piece of equipment is most
+                  likely to fail so that it can be prevented.
                 </p>
               </div>
             </div>
@@ -463,19 +453,18 @@ const Devops = () => {
             <div className="col-md-4">
               <div className="text-center box-padding">
                 <img
-                  src="./images/24:7.png"
+                  src="./images/predictive.png"
                   className="App-logo"
                   alt="logo"
                   width={100}
-                  style={{ height: "66px", width: "53px" }}
+                  style={{ width: "53px", height: "73px" }}
                 />
-                <h5>24*7 support</h5>
+                <h5>Predictive maintenance</h5>
 
                 <p className="arrowtext text-justify">
-                  By analyzing this data, you can gain in-depth market knowledge
-                  and stay ahead of your competition. Keep up with industry
-                  changes, anticipate customer needs and improve your
-                  performance.
+                  Collect data from sensors and equipment to identify patterns
+                  and anticipate the time that a piece of equipment is most
+                  likely to fail so that it can be prevented.
                 </p>
               </div>
             </div>
@@ -483,38 +472,18 @@ const Devops = () => {
             <div className="col-md-4">
               <div className="text-center box-padding">
                 <img
-                  src="./images/disaster.png"
+                  src="./images/cyber.png"
                   className="App-logo"
                   alt="logo"
                   width={100}
-                  style={{ height: "71px", width: "53px" }}
+                  style={{ width: "53px", height: "76px" }}
                 />
-                <h5>Disaster Recovery</h5>
+                <h5>Cybersecurity</h5>
 
                 <p className="arrowtext text-justify">
-                  DataObserve has a unified information architecture that
-                  enables experts to address existing complexities and solve
-                  them efficiently in this rapidly evolving tech landscape.
-                </p>
-              </div>
-            </div>
-
-            <div className="col-md-4">
-              <div className="text-center box-padding">
-                <img
-                  src="./images/manage.png"
-                  className="App-logo"
-                  alt="logo"
-                  width={100}
-                  style={{ height: "73px", width: "53px" }}
-                />
-                <h5>Availability Management</h5>
-
-                <p className="arrowtext text-justify">
-                  Facing an issue or stuck with a problem regarding BI and
-                  Analytics Services? Connect with our support services at any
-                  time of the day, and our experts will help you with your
-                  queries.
+                  Get rid of cyber attacks once and for all. Cybersecurity
+                  backed by AI technologies can identify cyber threats quickly
+                  and deal with them in real time.
                 </p>
               </div>
             </div>
@@ -578,118 +547,70 @@ const Devops = () => {
           </div>
         </div>
       </div>
-      <div className="container mt-3">
-        <div className="row box">
-          <div className="col-md-4">
-            <div className="text-center box-padding">
-              <img
-                src="./images/premium.png"
-                className="App-logo"
-                alt="logo"
-                width={100}
-                style={{ height: "63px", width: "44px" }}
-              />
-              <h5>Premium quality</h5>
+      <div>
+        <h3 className="cloud-head"> What Makes Us Stand Out</h3>
+        <div className="container mt-3">
+          <div className="row box">
+            <div className="col-md-4">
+              <div className="text-center box-padding">
+                <img
+                  src="./images/proven.png"
+                  className="App-logo"
+                  alt="logo"
+                  width={100}
+                  style={{ width: "73px", height: "76px" }}
+                />
+                <h5>Proven AI/ML Success</h5>
 
-              <p className="arrowtext text-justify">
-                Every project completed by our DevOps teams goes through
-                internal quality checks to ensure quality before being
-                delivered.
-              </p>
+                <p className="arrowtext text-justify">
+                  DataObserve is a reliable Machine Learning partner, with our
+                  AWS/Azure validation confirming our competence in handling
+                  AI/ML applications. Our handpicked consultants bring extensive
+                  experience gained from serving a wide range of customers
+                  across diverse industries worldwide.
+                </p>
+              </div>
             </div>
-          </div>
 
-          <div className="col-md-4">
-            <div className="text-center box-padding">
-              <img
-                src="./images/wide1.png"
-                className="App-logo"
-                alt="logo"
-                width={100}
-                style={{ height: "63px", width: "44px" }}
-              />
-              <h5>Wide wealth of experience</h5>
+            <div className="col-md-4">
+              <div className="text-center box-padding">
+                <img
+                  src="./images/dedicated.png"
+                  className="App-logo"
+                  alt="logo"
+                  width={100}
+                  style={{ width: "73px", height: "76px" }}
+                />
+                <h5>Dedicated Team</h5>
 
-              <p className="arrowtext text-justify">
-                DataObserve has experience working as a DevOps service provider
-                for a long time and even boasts certifications in different
-                technologies and methodologies.
-              </p>
+                <p className="arrowtext text-justify">
+                  Our in-house ML experts have worked with some of the most
+                  popular AI/ML services provided by AWS & Azure including
+                  Amazon Forecast, SageMaker, Synapse, ADF, and more. Our
+                  dedicated team ensures that your business is transformed for
+                  the digital age.
+                </p>
+              </div>
             </div>
-          </div>
 
-          <div className="col-md-4">
-            <div className="text-center box-padding">
-              <img
-                src="./images/fullstack.png"
-                className="App-logo"
-                alt="logo"
-                width={100}
-                style={{ height: "63px", width: "44px" }}
-              />
-              <h5>Futuristic tech stack</h5>
+            <div className="col-md-4">
+              <div className="text-center box-padding">
+                <img
+                  src="./images/advanced.png"
+                  className="App-logo"
+                  alt="logo"
+                  width={100}
+                  style={{ width: "73px", height: "76px" }}
+                />
+                <h5>Advanced Tools</h5>
 
-              <p className="arrowtext text-justify">
-                Our futuristic tech stack will accelerate the release cycle for
-                projects and expedite cloud operations while minimizing
-                operational costs and increasing efficiency.
-              </p>
-            </div>
-          </div>
-
-          <div className="col-md-4">
-            <div className="text-center box-padding">
-              <img
-                src="./images/24:7.png"
-                className="App-logo"
-                alt="logo"
-                width={100}
-                style={{ height: "63px", width: "44px" }}
-              />
-              <h5>24*7 support</h5>
-
-              <p className="arrowtext text-justify">
-                Facing any issues or have a query? Contact our support team
-                that’s available 24*7 to help you with the workload, cloud
-                technologies, or infrastructure.
-              </p>
-            </div>
-          </div>
-
-          <div className="col-md-4">
-            <div className="text-center box-padding">
-              <img
-                src="./images/disaster.png"
-                className="App-logo"
-                alt="logo"
-                width={100}
-                style={{ height: "63px", width: "44px" }}
-              />
-              <h5>Disaster Recovery</h5>
-
-              <p className="arrowtext text-justify">
-                Ensure fast recovery of business-critical applications and
-                workloads with the help of cost-effective disaster recovery
-                environments.
-              </p>
-            </div>
-          </div>
-
-          <div className="col-md-4">
-            <div className="text-center box-padding">
-              <img
-                src="./images/application.png"
-                className="App-logo"
-                alt="logo"
-                width={100}
-                style={{ height: "63px", width: "44px" }}
-              />
-              <h5>Availability Management</h5>
-
-              <p className="arrowtext text-justify">
-                Implement an event-driven management architecture for a robust
-                and continuous monitoring system.
-              </p>
+                <p className="arrowtext text-justify">
+                  Our experienced AI and Machine Learning services experts
+                  utilize futuristic tools and technology to help your
+                  organization reach its full potential. Turn your ideas into
+                  reality with AWS AI and ML services.
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -1260,4 +1181,4 @@ const Devops = () => {
   );
 };
 
-export default Devops;
+export default Aiml;

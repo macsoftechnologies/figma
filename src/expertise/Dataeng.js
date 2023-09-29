@@ -1,7 +1,7 @@
 import React from "react";
-import "./Devops.css";
+import "./Dataeng.css";
 
-const Devops = () => {
+const Dataeng = () => {
   return (
     <div>
       <div className="bg-white">
@@ -160,12 +160,12 @@ const Devops = () => {
           </div>
         </div>
       </div>
-      <div className="empower">
+      <div className="enterprise">
         <div
           style={{
             display: "inline-flex",
             minHeight: "1080px",
-            padding: "153px 676px 100px 255px",
+            padding: "153px 645px 100px 255px",
             flexDirection: "column",
             alignItems: "flex-start",
           }}
@@ -178,18 +178,18 @@ const Devops = () => {
               fontWeight: "600",
             }}
           >
-            Cloud Transformation
+            Data Engineering
           </p>
           <h4
             style={{
               color: "white",
-              fontSize: "35px",
+              fontSize: "48px",
               fontStyle: "normal",
               fontWeight: "700",
               lineHeight: "57px",
             }}
           >
-            Empower Your Business Transformation Journey with Cloud Migration
+            Hire “Enterprise-grade” Data & Analytics experts in next 48 hours
           </h4>
           <button
             style={{
@@ -237,14 +237,16 @@ const Devops = () => {
         }}
       >
         <h4 style={{ textAlign: "center", fontWeight: 700, fontSize: "43px" }}>
-          Our Expertise in Cloud Migration Services
+          Our Data Engineering Services
         </h4>
         <p style={{ textAlign: "center", marginTop: "10px", width: "755px" }}>
-          with over 40years of combined industry experience ,our cloud migration
-          services are tailored to set you on the path of operational excellence
-          and holistic growth. we transform organizations of every scale and
-          sizes with robust cloud ecosystems - moving IT infrastructure,
-          applications and processes
+          DataObserve’s data engineering services and analytics solutions are
+          designed to grow businesses and help them stand out from the crowd.
+          How do we do it? Glad you asked! We begin with thoroughly
+          understanding your current business model and identifying optimization
+          opportunities. This allows us to create user-friendly data engineering
+          solutions to modernize data platforms and streamline data processing
+          pipelines.
         </p>
       </div>
       <div>
@@ -383,11 +385,11 @@ const Devops = () => {
             flexDirection: "column",
           }}
         >
-          <h3 className="cloud-head">Benefits</h3>
+          <h3 className="cloud-head">Experience the Agilisium Advantage</h3>
           <p style={{ width: "700px" }}>
-            DataObserve is the fastest-growing Business Intelligence & Data
-            Analytics company with strong expertise in Data lake solutions, Data
-            Warehouse Engineering, Data Migration & Modernization.
+            At DataObserve, as a data engineering company, we are driven by
+            constant innovation and strive for perfection in developing
+            cloud-compatible solutions.
           </p>
         </div>
         <div className="container mt-3">
@@ -403,19 +405,18 @@ const Devops = () => {
             >
               <div className="text-center box-padding">
                 <img
-                  src="./images/premium.png"
+                  src="./images/improved1.png"
                   className="App-logo"
                   alt="logo"
                   width={100}
                   style={{ height: "73px", width: "53px" }}
                 />
-                <h5>Premium quality</h5>
+                <h5>Improved Operational Efficiency</h5>
 
                 <p className="arrowtext text-justify">
-                  Our BI tools extract data from multiple sources and analyze it
-                  according to user queries. The intuitive dashboards allow
-                  non-technical users to understand the story behind the data
-                  without learning how to code.
+                  Choose cloud driven AWS data engineering solutions merged with
+                  the power of AI technology to achieve improved efficiency and
+                  better supply chain transparency.
                 </p>
               </div>
             </div>
@@ -423,19 +424,18 @@ const Devops = () => {
             <div className="col-md-4">
               <div className="text-center box-padding">
                 <img
-                  src="./images/wide.png"
+                  src="./images/drive1.png"
                   className="App-logo"
                   alt="logo"
                   width={100}
                   style={{ height: "79px", width: "59px" }}
                 />
-                <h5>Wide wealth of experience</h5>
+                <h5>Drive Democratization of Data</h5>
 
                 <p className="arrowtext text-justify">
-                  Business leaders can get a holistic view of the company and
-                  identify areas of opportunity with efficient BI. Access to
-                  business data helps increase the organizational efficiency of
-                  a company.
+                  With tools like Amazon Redshift, you can analyze huge loads of
+                  data quickly and make it accessible to your entire staff and
+                  all your stakeholders.
                 </p>
               </div>
             </div>
@@ -443,78 +443,18 @@ const Devops = () => {
             <div className="col-md-4">
               <div className="text-center box-padding">
                 <img
-                  src="./images/tech.png"
+                  src="./images/leve.png"
                   className="App-logo"
                   alt="logo"
                   width={100}
                   style={{ height: "73px", width: "53px" }}
                 />
-                <h5>Futuristic tech stack</h5>
+                <h5>Leverage More Flexibility</h5>
 
                 <p className="arrowtext text-justify">
-                  Facing an issue or stuck with a problem regarding BI and
-                  Analytics Services? Connect with our support services at any
-                  time of the day, and our experts will help you with your
-                  queries.
-                </p>
-              </div>
-            </div>
-
-            <div className="col-md-4">
-              <div className="text-center box-padding">
-                <img
-                  src="./images/24:7.png"
-                  className="App-logo"
-                  alt="logo"
-                  width={100}
-                  style={{ height: "66px", width: "53px" }}
-                />
-                <h5>24*7 support</h5>
-
-                <p className="arrowtext text-justify">
-                  By analyzing this data, you can gain in-depth market knowledge
-                  and stay ahead of your competition. Keep up with industry
-                  changes, anticipate customer needs and improve your
-                  performance.
-                </p>
-              </div>
-            </div>
-
-            <div className="col-md-4">
-              <div className="text-center box-padding">
-                <img
-                  src="./images/disaster.png"
-                  className="App-logo"
-                  alt="logo"
-                  width={100}
-                  style={{ height: "71px", width: "53px" }}
-                />
-                <h5>Disaster Recovery</h5>
-
-                <p className="arrowtext text-justify">
-                  DataObserve has a unified information architecture that
-                  enables experts to address existing complexities and solve
-                  them efficiently in this rapidly evolving tech landscape.
-                </p>
-              </div>
-            </div>
-
-            <div className="col-md-4">
-              <div className="text-center box-padding">
-                <img
-                  src="./images/manage.png"
-                  className="App-logo"
-                  alt="logo"
-                  width={100}
-                  style={{ height: "73px", width: "53px" }}
-                />
-                <h5>Availability Management</h5>
-
-                <p className="arrowtext text-justify">
-                  Facing an issue or stuck with a problem regarding BI and
-                  Analytics Services? Connect with our support services at any
-                  time of the day, and our experts will help you with your
-                  queries.
+                  Change the size of your compute cluster instantly, scale your
+                  service, or supply any amount of computing resource with ease
+                  by choosing our AWS cloud data engineering services.
                 </p>
               </div>
             </div>
@@ -578,118 +518,126 @@ const Devops = () => {
           </div>
         </div>
       </div>
-      <div className="container mt-3">
-        <div className="row box">
-          <div className="col-md-4">
-            <div className="text-center box-padding">
-              <img
-                src="./images/premium.png"
-                className="App-logo"
-                alt="logo"
-                width={100}
-                style={{ height: "63px", width: "44px" }}
-              />
-              <h5>Premium quality</h5>
+      <div>
+        <h3 className="cloud-head"> What Makes Us Stand Out</h3>
+        <div className="container mt-3">
+          <div className="row box">
+            <div className="col-md-4">
+              <div className="text-center box-padding">
+                <img
+                  src="./images/iden.png"
+                  className="App-logo arrow"
+                  alt="logo"
+                  width={100}
+                />
+                <h5>Identify Patterns for Business Growth </h5>
 
-              <p className="arrowtext text-justify">
-                Every project completed by our DevOps teams goes through
-                internal quality checks to ensure quality before being
-                delivered.
-              </p>
+                <p className="arrowtext text-justify">
+                  Delivering data engineering services for years, we intend to
+                  become a credible source of data and cloud solutions for
+                  businesses across the globe. Our data engineering
+                  professionals can guide you through and execute all aspects of
+                  establishing data lakehouses, crafting data pipelines, and
+                  building a functional ETL process of data engineering. Here
+                  are a few reasons why we are an ideal fit: 
+                </p>
+              </div>
             </div>
-          </div>
 
-          <div className="col-md-4">
-            <div className="text-center box-padding">
-              <img
-                src="./images/wide1.png"
-                className="App-logo"
-                alt="logo"
-                width={100}
-                style={{ height: "63px", width: "44px" }}
-              />
-              <h5>Wide wealth of experience</h5>
+            <div className="col-md-4">
+              <div className="text-center box-padding">
+                <img
+                  src="./images/getb.png"
+                  className="App-logo arrow"
+                  alt="logo"
+                  width={100}
+                />
+                <h5>Get Better Data Insights</h5>
 
-              <p className="arrowtext text-justify">
-                DataObserve has experience working as a DevOps service provider
-                for a long time and even boasts certifications in different
-                technologies and methodologies.
-              </p>
+                <p className="arrowtext text-justify">
+                  Reconsider current procedures to ensure data transparency and
+                  effortless accessibility. Our Data Engineering ensures fast
+                  query retrieval, enabling businesses to fully unlock the
+                  potential of big data solutions.
+                </p>
+              </div>
             </div>
-          </div>
 
-          <div className="col-md-4">
-            <div className="text-center box-padding">
-              <img
-                src="./images/fullstack.png"
-                className="App-logo"
-                alt="logo"
-                width={100}
-                style={{ height: "63px", width: "44px" }}
-              />
-              <h5>Futuristic tech stack</h5>
+            <div className="col-md-4">
+              <div className="text-center box-padding">
+                <img
+                  src="./images/eff.png"
+                  className="App-logo arrow"
+                  alt="logo"
+                  width={100}
+                />
+                <h5>Efficiency in Data Models </h5>
 
-              <p className="arrowtext text-justify">
-                Our futuristic tech stack will accelerate the release cycle for
-                projects and expedite cloud operations while minimizing
-                operational costs and increasing efficiency.
-              </p>
+                <p className="arrowtext text-justify">
+                  Business Intelligence involves data structures and
+                  visualization to enhance decision-making. DataObserve's
+                  business intelligence solutions make comprehending shopper
+                  behavior more straightforward than ever.
+                </p>
+              </div>
             </div>
-          </div>
 
-          <div className="col-md-4">
-            <div className="text-center box-padding">
-              <img
-                src="./images/24:7.png"
-                className="App-logo"
-                alt="logo"
-                width={100}
-                style={{ height: "63px", width: "44px" }}
-              />
-              <h5>24*7 support</h5>
+            <div className="col-md-4">
+              <div className="text-center box-padding">
+                <img
+                  src="./images/robust.png"
+                  className="App-logo arrow"
+                  alt="logo"
+                  width={100}
+                />
+                <h5>Robust AWS databases</h5>
 
-              <p className="arrowtext text-justify">
-                Facing any issues or have a query? Contact our support team
-                that’s available 24*7 to help you with the workload, cloud
-                technologies, or infrastructure.
-              </p>
+                <p className="arrowtext text-justify">
+                  DevOps-as-a-Service is an advanced delivery model created to
+                  enhance application development. Utilize our DevOps as a
+                  service (DaaS) solutions to achieve time and cost savings
+                  through the automation of deployment processes.
+                </p>
+              </div>
             </div>
-          </div>
 
-          <div className="col-md-4">
-            <div className="text-center box-padding">
-              <img
-                src="./images/disaster.png"
-                className="App-logo"
-                alt="logo"
-                width={100}
-                style={{ height: "63px", width: "44px" }}
-              />
-              <h5>Disaster Recovery</h5>
+            <div className="col-md-4">
+              <div className="text-center box-padding">
+                <img
+                  src="./images/centered.png"
+                  className="App-logo arrow"
+                  alt="logo"
+                  width={100}
+                />
+                <h5>Centered Data Governance</h5>
 
-              <p className="arrowtext text-justify">
-                Ensure fast recovery of business-critical applications and
-                workloads with the help of cost-effective disaster recovery
-                environments.
-              </p>
+                <p className="arrowtext text-justify">
+                  DevOps-as-a-Service is an advanced delivery model created to
+                  enhance application development. Utilize our DevOps as a
+                  service (DaaS) solutions to achieve time and cost savings
+                  through the automation of deployment processes.
+                </p>
+              </div>
             </div>
-          </div>
 
-          <div className="col-md-4">
-            <div className="text-center box-padding">
-              <img
-                src="./images/application.png"
-                className="App-logo"
-                alt="logo"
-                width={100}
-                style={{ height: "63px", width: "44px" }}
-              />
-              <h5>Availability Management</h5>
+            <div className="col-md-4">
+              <div className="text-center box-padding">
+                <img
+                  src="./images/endto.png"
+                  className="App-logo arrow"
+                  alt="logo"
+                  width={100}
+                />
+                <h5>End-to-end Support</h5>
 
-              <p className="arrowtext text-justify">
-                Implement an event-driven management architecture for a robust
-                and continuous monitoring system.
-              </p>
+                <p className="arrowtext text-justify">
+                  Application modernization is essentially the process of
+                  upgrading current applications using state-of-the-art
+                  computing technology. Increase your productivity tenfold by
+                  smoothly migrating your entire underlying infrastructure to
+                  the cloud with DataObserve.
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -1260,4 +1208,4 @@ const Devops = () => {
   );
 };
 
-export default Devops;
+export default Dataeng;

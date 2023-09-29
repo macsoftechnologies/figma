@@ -7,7 +7,7 @@ function Home() {
       <div className="bg-white">
         <div className="container d-flex justify-content-between align-items-center">
           <nav class="navbar navbar-expand-lg navbar-light">
-            {/* <button
+            <button
           class="navbar-toggler"
           type="button"
           data-toggle="collapse"
@@ -17,7 +17,7 @@ function Home() {
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
-        </button> */}
+        </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
               <div className="logo d-flex">
                 <img

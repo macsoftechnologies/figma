@@ -1,7 +1,7 @@
 import React from "react";
-import "./Devops.css";
+import "./Talent.css";
 
-const Devops = () => {
+const Talent = () => {
   return (
     <div>
       <div className="bg-white">
@@ -159,263 +159,110 @@ const Devops = () => {
             <button className="contact">contact</button>
           </div>
         </div>
-      </div>
-      <div className="empower">
-        <div
-          style={{
-            display: "inline-flex",
-            minHeight: "1080px",
-            padding: "153px 676px 100px 255px",
-            flexDirection: "column",
-            alignItems: "flex-start",
-          }}
-        >
-          <p
-            style={{
-              color: "white",
-              fontSize: "18px",
-              fontStyle: "normal",
-              fontWeight: "600",
-            }}
-          >
-            Cloud Transformation
-          </p>
-          <h4
-            style={{
-              color: "white",
-              fontSize: "35px",
-              fontStyle: "normal",
-              fontWeight: "700",
-              lineHeight: "57px",
-            }}
-          >
-            Empower Your Business Transformation Journey with Cloud Migration
-          </h4>
-          <button
-            style={{
-              display: "flex",
-              height: "61px",
-              maxWidth: "255px",
-              padding: "20px 46px 21px 48px",
-              justifyContent: "center",
-              alignItems: "center",
-              border: "none",
-              marginTop: "70px",
-              borderRadius: "5px",
-            }}
-          >
-            <span
-              style={{
-                color: "#FF4925",
-                fontSize: "14px",
-                fontStyle: "normal",
-                fontWeight: "600",
-                lineHeight: "19px",
-              }}
-            >
-              Talk to us now
-            </span>{" "}
-            <i
-              className="fa fa-long-arrow-right"
-              style={{
-                width: "23px",
-                fontSize: "29px",
-                flexShrink: "0",
-                color: "#FF4925",
-              }}
-              aria-hidden="true"
-            ></i>
-          </button>
-        </div>
-      </div>
-      <div
-        style={{
-          display: "flex",
-          flexDirection: "column",
-          marginTop: "30px",
-          alignItems: "center",
-        }}
-      >
-        <h4 style={{ textAlign: "center", fontWeight: 700, fontSize: "43px" }}>
-          Our Expertise in Cloud Migration Services
-        </h4>
-        <p style={{ textAlign: "center", marginTop: "10px", width: "755px" }}>
-          with over 40years of combined industry experience ,our cloud migration
-          services are tailored to set you on the path of operational excellence
-          and holistic growth. we transform organizations of every scale and
-          sizes with robust cloud ecosystems - moving IT infrastructure,
-          applications and processes
-        </p>
-      </div>
-      <div>
-        <div class="card-deck" style={{ margin: "5px 0px 0px 0px" }}>
-          <div class="card" style={{ border: "none" }}>
-            <img
-              src="./images/Group - 1 of 5.png"
-              class="card-img-top"
-              alt="..."
-            />
-          </div>
-          <div class="card" style={{ border: "none" }}>
-            <img
-              src="./images/Group - 2 of 5.png"
-              class="card-img-top"
-              alt="..."
-            />
-          </div>
-          <div class="card" style={{ border: "none" }}>
-            <img
-              src="./images/Group - 3 of 5.png"
-              class="card-img-top"
-              alt="..."
-            />
-          </div>
-          <div class="card" style={{ border: "none" }}>
-            <img
-              src="./images/Group - 4 of 5.png"
-              class="card-img-top"
-              alt="..."
-            />
-          </div>
-          <div class="card" style={{ border: "none" }}>
-            <img
-              src="./images/Group - 5 of 5.png"
-              class="card-img-top"
-              alt="..."
-            />
+        <div className="hire">
+          <div className="container">
+            <div>
+              <h1
+                style={{
+                  height: "173px",
+                  width: "583px",
+                  color: "white",
+                  paddingTop: "120px",
+                }}
+              >
+                Hire “Enterprise-grade” Data & Analytics experts in next 48
+                hours
+              </h1>
+            </div>
+            <div style={{ paddingTop: "100px" }}>
+              <button
+                style={{
+                  fontSize: "16px",
+                  border: "none",
+                  padding: "15px 32px",
+                  borderRadius: "5px",
+                }}
+              >
+                Get in touch{" "}
+                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+              </button>
+            </div>
           </div>
         </div>
       </div>
       <div
+        className="container"
         style={{
           display: "flex",
-          flexDirection: "column",
           justifyContent: "center",
           alignItems: "center",
+          flexDirection: "column",
+          marginTop: "50px",
+          width: "1210px",
         }}
       >
-        <div>
-          <h4
-            style={{ textAlign: "center", fontWeight: 700, fontSize: "43px" }}
-          >
-            Our Case Studies
-          </h4>
-        </div>
-        <div
-          class="card mb-3 mt-5"
-          style={{
-            backgroundColor: "#1A4AB9",
-            maxWidth: "800px",
-            borderRadius: "20px",
-          }}
-        >
-          <div
-            class="row no-gutters"
+        <div style={{ display: "flex" }}>
+          <h5
+            className="text-muted"
             style={{
-              display: "flex",
+              textAlign: "left",
               alignItems: "center",
-              justifyContent: "spacebetween",
+              display: "flex",
+              justifyContent: "center",
+              fontSize: "14px",
             }}
           >
-            <div class="col-md-4">
-              <img
-                src="./images/video-wp (1).png"
-                className="card-img"
-                alt="..."
-              />
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title" style={{ color: "white" }}>
-                  Build A Undified Augmented Analytics decision intelligence
-                  platform
-                </h5>
-                <p class="card-text" style={{ color: "white" }}>
-                  Learn how we created to self-service ,predective,insights
-                  platform driven by an adaptive machine learning engine which
-                  helps improve decision making
-                </p>
-                <p class="card-text" style={{ color: "white" }}>
-                  <small>
-                    Read case study
-                    <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-                  </small>
-                </p>
-                <div
-                  style={{
-                    display: "flex",
-                    alignItems: "center",
-                    justifyContent: "space-between",
-                  }}
-                >
-                  <img
-                    src="./images/accede.png"
-                    alt=""
-                    style={{ width: "60px" }}
-                  />
-                  <img
-                    src="./images/solakhen.png"
-                    alt=""
-                    style={{ width: "95px" }}
-                  />
-                  <img
-                    src="./images/grbeco.png"
-                    alt=""
-                    style={{ width: "60px" }}
-                  />
-                  <img
-                    src="./images/srdsystems.png"
-                    alt=""
-                    style={{ width: "95px" }}
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
+            Trusted by Leading brands and startups
+          </h5>
+          <img
+            src="./images/bonduelle.png"
+            alt="..."
+            style={{ width: "153px", height: "70px" }}
+          />
+          <img
+            src="./images/lucernal.png"
+            alt="..."
+            style={{ width: "153px", height: "70px" }}
+          />
+          <img
+            src="./images/thermof.png"
+            alt="..."
+            style={{ width: "153px", height: "70px" }}
+          />
+          <img
+            src="./images/acco.png"
+            alt="..."
+            style={{ width: "153px", height: "70px" }}
+          />
+          <img
+            src="./images/igt1.png"
+            alt="..."
+            style={{ width: "153px", height: "70px" }}
+          />
+          <img
+            src="./images/universalm.png"
+            alt="..."
+            style={{ width: "153px", height: "70px" }}
+          />
         </div>
-      </div>
-      <div>
-        <div
-          style={{
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            flexDirection: "column",
-          }}
-        >
-          <h3 className="cloud-head">Benefits</h3>
-          <p style={{ width: "700px" }}>
-            DataObserve is the fastest-growing Business Intelligence & Data
-            Analytics company with strong expertise in Data lake solutions, Data
-            Warehouse Engineering, Data Migration & Modernization.
-          </p>
+        <div style={{ marginTop: "50px" }}>
+          <h4>What DataObserve Offers</h4>
         </div>
         <div className="container mt-3">
           <div className="row box">
-            <div
-              className="col-md-4"
-              style={{
-                justifyContent: "center",
-                alignItems: "center",
-                display: "flex",
-                flexDirection: "column",
-              }}
-            >
+            <div className="col-md-4">
               <div className="text-center box-padding">
                 <img
-                  src="./images/premium.png"
+                  src="./images/48.png"
                   className="App-logo"
                   alt="logo"
                   width={100}
-                  style={{ height: "73px", width: "53px" }}
+                  style={{ width: "62px", height: "62px" }}
                 />
-                <h5>Premium quality</h5>
-
+                <p>Agility</p>
+                <h4>48 Hours</h4>
                 <p className="arrowtext text-justify">
-                  Our BI tools extract data from multiple sources and analyze it
-                  according to user queries. The intuitive dashboards allow
-                  non-technical users to understand the story behind the data
-                  without learning how to code.
+                  Fast onboarding to hire the Top 3% of Talents
                 </p>
               </div>
             </div>
@@ -423,19 +270,16 @@ const Devops = () => {
             <div className="col-md-4">
               <div className="text-center box-padding">
                 <img
-                  src="./images/wide.png"
+                  src="./images/timesaved.png"
                   className="App-logo"
                   alt="logo"
                   width={100}
-                  style={{ height: "79px", width: "59px" }}
+                  style={{ width: "62px", height: "62px" }}
                 />
-                <h5>Wide wealth of experience</h5>
-
+                <p>Time saved</p>
+                <h4>85%</h4>
                 <p className="arrowtext text-justify">
-                  Business leaders can get a holistic view of the company and
-                  identify areas of opportunity with efficient BI. Access to
-                  business data helps increase the organizational efficiency of
-                  a company.
+                  interviewing hours saved per recruitment
                 </p>
               </div>
             </div>
@@ -443,19 +287,16 @@ const Devops = () => {
             <div className="col-md-4">
               <div className="text-center box-padding">
                 <img
-                  src="./images/tech.png"
+                  src="./images/highrr.png"
                   className="App-logo"
                   alt="logo"
                   width={100}
-                  style={{ height: "73px", width: "53px" }}
+                  style={{ width: "62px", height: "62px" }}
                 />
-                <h5>Futuristic tech stack</h5>
-
+                <p>High retention rate</p>
+                <h4>97%</h4>
                 <p className="arrowtext text-justify">
-                  Facing an issue or stuck with a problem regarding BI and
-                  Analytics Services? Connect with our support services at any
-                  time of the day, and our experts will help you with your
-                  queries.
+                  Engagement success rates
                 </p>
               </div>
             </div>
@@ -463,19 +304,17 @@ const Devops = () => {
             <div className="col-md-4">
               <div className="text-center box-padding">
                 <img
-                  src="./images/24:7.png"
+                  src="./images/enter.png"
                   className="App-logo"
                   alt="logo"
                   width={100}
-                  style={{ height: "66px", width: "53px" }}
+                  style={{ width: "62px", height: "62px" }}
                 />
-                <h5>24*7 support</h5>
-
+                <p>Enterprise Grade Engineers</p>
+                <h4>90%</h4>
                 <p className="arrowtext text-justify">
-                  By analyzing this data, you can gain in-depth market knowledge
-                  and stay ahead of your competition. Keep up with industry
-                  changes, anticipate customer needs and improve your
-                  performance.
+                  of our In-house engineers have strong experience in working
+                  with Fortune 500s
                 </p>
               </div>
             </div>
@@ -483,18 +322,16 @@ const Devops = () => {
             <div className="col-md-4">
               <div className="text-center box-padding">
                 <img
-                  src="./images/disaster.png"
+                  src="./images/trust.png"
                   className="App-logo"
                   alt="logo"
                   width={100}
-                  style={{ height: "71px", width: "53px" }}
+                  style={{ width: "62px", height: "62px" }}
                 />
-                <h5>Disaster Recovery</h5>
-
+                <p>Trust & Reliability</p>
+                <h4>100+</h4>
                 <p className="arrowtext text-justify">
-                  DataObserve has a unified information architecture that
-                  enables experts to address existing complexities and solve
-                  them efficiently in this rapidly evolving tech landscape.
+                  Full-time and Contract-to-Hire candidates available.
                 </p>
               </div>
             </div>
@@ -502,195 +339,373 @@ const Devops = () => {
             <div className="col-md-4">
               <div className="text-center box-padding">
                 <img
-                  src="./images/manage.png"
+                  src="./images/global.png"
                   className="App-logo"
                   alt="logo"
                   width={100}
-                  style={{ height: "73px", width: "53px" }}
+                  style={{ width: "62px", height: "62px" }}
                 />
-                <h5>Availability Management</h5>
-
+                <p>Global Team</p>
+                <h4>5+</h4>
                 <p className="arrowtext text-justify">
-                  Facing an issue or stuck with a problem regarding BI and
-                  Analytics Services? Connect with our support services at any
-                  time of the day, and our experts will help you with your
-                  queries.
+                  Global delivery centers across the USA, Canada, UK, India,
+                  Netherlands, Dubai & Singapore
                 </p>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div
-              class="card mb-3 mt-5"
-              style={{
-                backgroundColor: "#1A4AB9",
-                maxWidth: "100%",
-                borderRadius: "20px",
-              }}
-            >
-              <div
-                class="row no-gutters"
-                style={{
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "spacebetween",
-                }}
-              >
-                <div class="col-md-1"></div>
-                <div class="col-md-8">
-                  <div class="card-body d-flex">
-                    <div>
-                      <h5 class="card-title" style={{ color: "white" }}>
-                        Make the most out of cloud Capabilities with DataObserve
-                        Advance
-                      </h5>
-                      <p
-                        class="card-text"
-                        style={{ color: "white", width: "500px" }}
-                      >
-                        Simplify your cloud-powered business transformation with
-                        a host of DataObserve cloud services, including
-                        consulting, optimization, migration, & modernization.
-                        Our team of cloud experts is here to guide you.
-                      </p>
-                    </div>
-                    <div>
-                      <button
-                        style={{
-                          width: "200px",
-                          border: "none",
-                          height: "55px",
-                          margin: "42px",
-                          borderRadius: "6px",
-                        }}
-                      >
-                        Talk to us now{" "}
-                        <i
-                          class="fa fa-long-arrow-right"
-                          aria-hidden="true"
-                        ></i>
-                      </button>
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div className="container mt-3">
-        <div className="row box">
-          <div className="col-md-4">
-            <div className="text-center box-padding">
-              <img
-                src="./images/premium.png"
-                className="App-logo"
-                alt="logo"
-                width={100}
-                style={{ height: "63px", width: "44px" }}
-              />
-              <h5>Premium quality</h5>
-
-              <p className="arrowtext text-justify">
-                Every project completed by our DevOps teams goes through
-                internal quality checks to ensure quality before being
-                delivered.
-              </p>
+      <div className="bestprac">
+        <div className="container">
+          <div class="card" style={{ width: "26%", height: "390px" }}>
+            <div class="mt-2 card-body">
+              <div>
+                <img
+                  src="./images/ebook.png"
+                  alt="..."
+                  style={{ width: "70px" }}
+                />
+              </div>
+              <h5
+                class="card-title"
+                style={{
+                  marginTop: "0px",
+                  fontSize: "15px",
+                  fontWeight: "600px",
+                  lineHeight: "27.4px",
+                  letterSpacing: "-0.32px",
+                }}
+              >
+                Best Practices for Database Migration to AWS - A guide by
+                DataObserve
+              </h5>
+              <h6
+                class="card-subtitle mb-2 text-muted"
+                style={{ fontSize: "14px", marginTop: "0px" }}
+              >
+                Migrating a database to AWS takes time and careful planning. It
+                isn’t just the database that needs migration; everything that
+                uses it will need some changes.
+              </h6>
+              {/* <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p> */}
+              <a href="#" class="card-link" style={{ fontSize: "17px" }}>
+                Download{" "}
+                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+              </a>
+              {/* <a href="#" class="card-link">
+              Another link
+            </a> */}
             </div>
           </div>
-
-          <div className="col-md-4">
-            <div className="text-center box-padding">
+        </div>
+      </div>
+      <div
+        style={{
+          textAlign: "center",
+          alignItems: "center",
+          display: "flex",
+          flexDirection: "column",
+          marginTop: "50px",
+        }}
+      >
+        <h4>
+          Hire top 1% of Global Data &<br /> Analytics Engineers
+        </h4>
+        <div class="container">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+            <div class="col">
               <img
-                src="./images/wide1.png"
-                className="App-logo"
-                alt="logo"
-                width={100}
-                style={{ height: "63px", width: "44px" }}
+                src="./images/dataen.png"
+                alt="..."
+                style={{ height: "50px", width: "50px" }}
               />
-              <h5>Wide wealth of experience</h5>
-
-              <p className="arrowtext text-justify">
-                DataObserve has experience working as a DevOps service provider
-                for a long time and even boasts certifications in different
-                technologies and methodologies.
-              </p>
+              <p>Data Engineering</p>
+            </div>
+            <div class="col">
+              <img
+                src="./images/clouden.png"
+                alt="..."
+                style={{ height: "50px", width: "50px" }}
+              />
+              <p>Cloud Engineering</p>
+            </div>
+            <div class="col">
+              {" "}
+              <img
+                src="./images/dataan.png"
+                alt="..."
+                style={{ height: "50px", width: "50px" }}
+              />
+              <p>Data Analystics & Bi</p>
+            </div>
+            <div class="col">
+              <img
+                src="./images/datasc.png"
+                alt="..."
+                style={{ height: "50px", width: "50px" }}
+              />
+              <p>Data Science - AI & ML</p>
             </div>
           </div>
-
-          <div className="col-md-4">
-            <div className="text-center box-padding">
+        </div>
+        <div class="container">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+            <div class="col">
+              <img
+                src="./images/devops.png"
+                alt="..."
+                style={{ height: "50px", width: "50px" }}
+              />
+              <p>DevOps</p>
+            </div>
+            <div class="col">
+              <img
+                src="./images/cloudops.png"
+                alt="..."
+                style={{ height: "50px", width: "50px" }}
+              />
+              <p>CloudOps</p>
+            </div>
+            <div class="col">
               <img
                 src="./images/fullstack.png"
-                className="App-logo"
-                alt="logo"
-                width={100}
-                style={{ height: "63px", width: "44px" }}
+                alt="..."
+                style={{ height: "50px", width: "50px" }}
               />
-              <h5>Futuristic tech stack</h5>
-
-              <p className="arrowtext text-justify">
-                Our futuristic tech stack will accelerate the release cycle for
-                projects and expedite cloud operations while minimizing
-                operational costs and increasing efficiency.
-              </p>
+              <p>FullStack Development</p>
+            </div>
+            <div class="col">
+              <img
+                src="./images/qa.png"
+                alt="..."
+                style={{ height: "50px", width: "50px" }}
+              />
+              <p>QA Test Automation</p>
             </div>
           </div>
-
-          <div className="col-md-4">
-            <div className="text-center box-padding">
-              <img
-                src="./images/24:7.png"
-                className="App-logo"
-                alt="logo"
-                width={100}
-                style={{ height: "63px", width: "44px" }}
-              />
-              <h5>24*7 support</h5>
-
-              <p className="arrowtext text-justify">
-                Facing any issues or have a query? Contact our support team
-                that’s available 24*7 to help you with the workload, cloud
-                technologies, or infrastructure.
-              </p>
+          <div
+          // style={{
+          //   display: "flex",
+          //   alignItems: "center",
+          //   justifyContent: "center",
+          //   flexDirection: "column",
+          // }}
+          >
+            <h4>Client Testimonial</h4>
+            <div
+              className="row energydo"
+              style={{
+                height: "460px",
+                padding: "40px 40px 40px 40px",
+                flexDirection: "column",
+                justifyContent: "space-between",
+                alignItems: "flex-start",
+                display: "flex",
+                textAlign: "left",
+              }}
+            >
+              <div className="col-md-4">
+                <h4
+                  style={{
+                    fontSize: "30px",
+                    fontStyle: "normal",
+                    fontWeight: "700px",
+                    lineHeight: "56px",
+                    letterSpacing: "1px",
+                    color: "#ffff",
+                  }}
+                >
+                  Energy Domain
+                </h4>
+                <p
+                  style={{
+                    fontSize: "16px",
+                    textAlign: "left",
+                    color: "#ffff",
+                  }}
+                >
+                  Advance Data Lakehouse Solution
+                </p>
+                <img
+                  src="./images/gbr.png"
+                  alt="..."
+                  style={{
+                    width: "194px",
+                    height: "194px",
+                    marginTop: "105px",
+                  }}
+                />
+              </div>
+              <div
+                className="col-md-8"
+                style={{
+                  flexDirection: "column",
+                  justifyContent: "center",
+                  alignItems: "flex-start",
+                }}
+              >
+                <h4
+                  style={{
+                    fontSize: "30px",
+                    fontStyle: "normal",
+                    fontWeight: "700px",
+                    lineHeight: "56px",
+                    letterSpacing: "1px",
+                    textAlign: "left",
+                    color: "#ffff",
+                  }}
+                >
+                  GBR Eco
+                </h4>
+                <p
+                  style={{
+                    fontSize: "16px",
+                    width: "440px",
+                    textAlign: "left",
+                    color: "#ffff",
+                    fontWeight: "500",
+                    lineHeight: "35px",
+                  }}
+                >
+                  From endless computing power, to reduced cycle time and easier
+                  data access, the new efficiency supported by DataObserve
+                  enabled us to produce timely insights about products,
+                  customers, and Vendors and significantly enhance their
+                  experiences.
+                </p>
+                <p
+                  style={{
+                    fontSize: "16px",
+                    textAlign: "left",
+                    color: "#ffff",
+                    marginTop: "100px",
+                  }}
+                >
+                  Rama Krishna Raju Dandu
+                </p>
+                <p
+                  style={{
+                    fontSize: "16px",
+                    textAlign: "left",
+                    color: "#ffff",
+                    marginTop: "-15px",
+                  }}
+                >
+                  Chief Operating Officer, GBR Eco
+                </p>
+              </div>
             </div>
           </div>
-
-          <div className="col-md-4">
-            <div className="text-center box-padding">
-              <img
-                src="./images/disaster.png"
-                className="App-logo"
-                alt="logo"
-                width={100}
-                style={{ height: "63px", width: "44px" }}
-              />
-              <h5>Disaster Recovery</h5>
-
-              <p className="arrowtext text-justify">
-                Ensure fast recovery of business-critical applications and
-                workloads with the help of cost-effective disaster recovery
-                environments.
-              </p>
-            </div>
-          </div>
-
-          <div className="col-md-4">
-            <div className="text-center box-padding">
-              <img
-                src="./images/application.png"
-                className="App-logo"
-                alt="logo"
-                width={100}
-                style={{ height: "63px", width: "44px" }}
-              />
-              <h5>Availability Management</h5>
-
-              <p className="arrowtext text-justify">
-                Implement an event-driven management architecture for a robust
-                and continuous monitoring system.
-              </p>
-            </div>
+        </div>
+      </div>
+      <div
+        className="container"
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          flexDirection: "column",
+          marginTop: "50px",
+          width: "1210px",
+        }}
+      >
+        <div
+          className="container row"
+          style={{
+            display: "flex",
+          }}
+        >
+          <img
+            className="col-md-2"
+            src="./images/amgn.png"
+            alt="..."
+            style={{ width: "100px", height: "50px" }}
+          />
+          <img
+            className="col-md-2"
+            src="./images/nbcu.png"
+            alt="..."
+            style={{ width: "100px", height: "50px" }}
+          />
+          <img
+            className="col-md-2"
+            src="./images/universalm.png"
+            alt="..."
+            style={{ width: "100px", height: "50px" }}
+          />
+          <img
+            className="col-md-2"
+            src="./images/reliance.png"
+            alt="..."
+            style={{ width: "100px", height: "50px" }}
+          />
+          <img
+            className="col-md-2"
+            src="./images/bonduelle.png"
+            alt="..."
+            style={{ width: "100px", height: "50px" }}
+          />
+          <img
+            className="col-md-2"
+            src="./images/greendot.png"
+            alt="..."
+            style={{ width: "100px", height: "50px" }}
+          />
+        </div>
+        <div
+          className="container"
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            justifyContent: "center",
+            marginTop: "60px",
+          }}
+        >
+          <h2>Talent as a Service</h2>
+          <div className="cocreater">
+            <p
+              style={{
+                fontSize: "18px",
+                fontStyle: "normal",
+                fontWeight: "500",
+                lineHeight: "27px",
+                width: "460px",
+                marginLeft: "50%",
+                marginTop: "60px",
+              }}
+            >
+              We're introducing a new approach to hiring cloud Engineers. This
+              service will help your cloud engineering team to build innovative
+              digital transformation solutions.
+            </p>
+            <h6
+              style={{
+                fontSize: "25px",
+                fontStyle: "normal",
+                fontWeight: "600",
+                lineHeight: "30px",
+                marginLeft: "50%",
+              }}
+            >
+              Meet Cocreater
+            </h6>
+            <button
+              className="botn"
+              style={{
+                padding: "16px 50px 16px 50px",
+                fontSize: "15px",
+                color: "white",
+                marginLeft: "50%",
+              }}
+            >
+              Explore CoCreater{" "}
+              <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+            </button>
           </div>
         </div>
       </div>
@@ -1260,4 +1275,4 @@ const Devops = () => {
   );
 };
 
-export default Devops;
+export default Talent;

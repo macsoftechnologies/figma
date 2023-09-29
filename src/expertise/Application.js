@@ -1,7 +1,7 @@
 import React from "react";
-import "./Devops.css";
+import "./Application.css";
 
-const Devops = () => {
+const Application = () => {
   return (
     <div>
       <div className="bg-white">
@@ -160,7 +160,7 @@ const Devops = () => {
           </div>
         </div>
       </div>
-      <div className="empower">
+      <div className="enterprise">
         <div
           style={{
             display: "inline-flex",
@@ -178,7 +178,7 @@ const Devops = () => {
               fontWeight: "600",
             }}
           >
-            Cloud Transformation
+            Application Modernization
           </p>
           <h4
             style={{
@@ -189,7 +189,8 @@ const Devops = () => {
               lineHeight: "57px",
             }}
           >
-            Empower Your Business Transformation Journey with Cloud Migration
+            Reinvent your business by modernizing legacy applications that makes
+            you future-ready
           </h4>
           <button
             style={{
@@ -237,14 +238,13 @@ const Devops = () => {
         }}
       >
         <h4 style={{ textAlign: "center", fontWeight: 700, fontSize: "43px" }}>
-          Our Expertise in Cloud Migration Services
+          Our Expertise in Application Modernization Services
         </h4>
         <p style={{ textAlign: "center", marginTop: "10px", width: "755px" }}>
-          with over 40years of combined industry experience ,our cloud migration
-          services are tailored to set you on the path of operational excellence
-          and holistic growth. we transform organizations of every scale and
-          sizes with robust cloud ecosystems - moving IT infrastructure,
-          applications and processes
+          At DataObserve, we bring over 40 years of experience in application
+          modernization services across industries. Through legacy application
+          modernization, we offer our expertise in more than just modernizing
+          applications for the digital age.
         </p>
       </div>
       <div>
@@ -392,30 +392,21 @@ const Devops = () => {
         </div>
         <div className="container mt-3">
           <div className="row box">
-            <div
-              className="col-md-4"
-              style={{
-                justifyContent: "center",
-                alignItems: "center",
-                display: "flex",
-                flexDirection: "column",
-              }}
-            >
+            <div className="col-md-4">
               <div className="text-center box-padding">
                 <img
-                  src="./images/premium.png"
+                  src="./images/high1.png"
                   className="App-logo"
                   alt="logo"
                   width={100}
-                  style={{ height: "73px", width: "53px" }}
+                  style={{ width: "53px", height: "80px" }}
                 />
-                <h5>Premium quality</h5>
+                <h5>High Technical Expertise</h5>
 
                 <p className="arrowtext text-justify">
-                  Our BI tools extract data from multiple sources and analyze it
-                  according to user queries. The intuitive dashboards allow
-                  non-technical users to understand the story behind the data
-                  without learning how to code.
+                  Our technical experts have enabled our customers modernize and
+                  upgrade their current applications portfolio – as well as
+                  unleash the power of cloud-native applications.
                 </p>
               </div>
             </div>
@@ -423,19 +414,19 @@ const Devops = () => {
             <div className="col-md-4">
               <div className="text-center box-padding">
                 <img
-                  src="./images/wide.png"
+                  src="images/personal.png"
                   className="App-logo"
                   alt="logo"
                   width={100}
-                  style={{ height: "79px", width: "59px" }}
+                  style={{ width: "76px", height: "76px" }}
                 />
-                <h5>Wide wealth of experience</h5>
+                <h5>Focus on organizational goals</h5>
 
                 <p className="arrowtext text-justify">
-                  Business leaders can get a holistic view of the company and
-                  identify areas of opportunity with efficient BI. Access to
-                  business data helps increase the organizational efficiency of
-                  a company.
+                  Our legacy application modernization approach focus on
+                  organizational goals and objectives with a detailed
+                  feasibility study conducted by our application solution
+                  architects with your company’s stakeholders.
                 </p>
               </div>
             </div>
@@ -443,78 +434,18 @@ const Devops = () => {
             <div className="col-md-4">
               <div className="text-center box-padding">
                 <img
-                  src="./images/tech.png"
+                  src="./images/automation.png"
                   className="App-logo"
                   alt="logo"
                   width={100}
-                  style={{ height: "73px", width: "53px" }}
+                  style={{ width: "59px", height: "59px" }}
                 />
-                <h5>Futuristic tech stack</h5>
+                <h5>Advanced Technology</h5>
 
                 <p className="arrowtext text-justify">
-                  Facing an issue or stuck with a problem regarding BI and
-                  Analytics Services? Connect with our support services at any
-                  time of the day, and our experts will help you with your
-                  queries.
-                </p>
-              </div>
-            </div>
-
-            <div className="col-md-4">
-              <div className="text-center box-padding">
-                <img
-                  src="./images/24:7.png"
-                  className="App-logo"
-                  alt="logo"
-                  width={100}
-                  style={{ height: "66px", width: "53px" }}
-                />
-                <h5>24*7 support</h5>
-
-                <p className="arrowtext text-justify">
-                  By analyzing this data, you can gain in-depth market knowledge
-                  and stay ahead of your competition. Keep up with industry
-                  changes, anticipate customer needs and improve your
-                  performance.
-                </p>
-              </div>
-            </div>
-
-            <div className="col-md-4">
-              <div className="text-center box-padding">
-                <img
-                  src="./images/disaster.png"
-                  className="App-logo"
-                  alt="logo"
-                  width={100}
-                  style={{ height: "71px", width: "53px" }}
-                />
-                <h5>Disaster Recovery</h5>
-
-                <p className="arrowtext text-justify">
-                  DataObserve has a unified information architecture that
-                  enables experts to address existing complexities and solve
-                  them efficiently in this rapidly evolving tech landscape.
-                </p>
-              </div>
-            </div>
-
-            <div className="col-md-4">
-              <div className="text-center box-padding">
-                <img
-                  src="./images/manage.png"
-                  className="App-logo"
-                  alt="logo"
-                  width={100}
-                  style={{ height: "73px", width: "53px" }}
-                />
-                <h5>Availability Management</h5>
-
-                <p className="arrowtext text-justify">
-                  Facing an issue or stuck with a problem regarding BI and
-                  Analytics Services? Connect with our support services at any
-                  time of the day, and our experts will help you with your
-                  queries.
+                  Leverage the capabilities of the latest technology tools
+                  through our strategic partnership in delivering top-level
+                  application- focussed cloud services.
                 </p>
               </div>
             </div>
@@ -578,118 +509,128 @@ const Devops = () => {
           </div>
         </div>
       </div>
-      <div className="container mt-3">
-        <div className="row box">
-          <div className="col-md-4">
-            <div className="text-center box-padding">
-              <img
-                src="./images/premium.png"
-                className="App-logo"
-                alt="logo"
-                width={100}
-                style={{ height: "63px", width: "44px" }}
-              />
-              <h5>Premium quality</h5>
+      <div>
+        <h3 className="cloud-head"> What Makes Us Stand Out</h3>
+        <div className="container mt-3">
+          <div className="row box">
+            <div className="col-md-4">
+              <div className="text-center box-padding">
+                <img
+                  src="./images/iden.png"
+                  className="App-logo arrow"
+                  alt="logo"
+                  width={100}
+                />
+                <h5>Identify Patterns for Business Growth </h5>
 
-              <p className="arrowtext text-justify">
-                Every project completed by our DevOps teams goes through
-                internal quality checks to ensure quality before being
-                delivered.
-              </p>
+                <p className="arrowtext text-justify">
+                  Delivering data engineering services for years, we intend to
+                  become a credible source of data and cloud solutions for
+                  businesses across the globe. Our data engineering
+                  professionals can guide you through and execute all aspects of
+                  establishing data lakehouses, crafting data pipelines, and
+                  building a functional ETL process of data engineering. Here
+                  are a few reasons why we are an ideal fit: 
+                </p>
+              </div>
             </div>
-          </div>
 
-          <div className="col-md-4">
-            <div className="text-center box-padding">
-              <img
-                src="./images/wide1.png"
-                className="App-logo"
-                alt="logo"
-                width={100}
-                style={{ height: "63px", width: "44px" }}
-              />
-              <h5>Wide wealth of experience</h5>
+            <div className="col-md-4">
+              <div className="text-center box-padding">
+                <img
+                  src="./images/getb.png"
+                  className="App-logo arrow"
+                  alt="logo"
+                  width={100}
+                />
+                <h5>Proven Methodologies</h5>
 
-              <p className="arrowtext text-justify">
-                DataObserve has experience working as a DevOps service provider
-                for a long time and even boasts certifications in different
-                technologies and methodologies.
-              </p>
+                <p className="arrowtext text-justify">
+                  Our team uses a combination of agile and cloud-driven DevOps
+                  methodologies to deliver application modernization projects on
+                  time and within your budget. Our approach focuses on
+                  delivering incremental value to our clients, ensuring a smooth
+                  transition to the new modernized system.
+                </p>
+              </div>
             </div>
-          </div>
 
-          <div className="col-md-4">
-            <div className="text-center box-padding">
-              <img
-                src="./images/fullstack.png"
-                className="App-logo"
-                alt="logo"
-                width={100}
-                style={{ height: "63px", width: "44px" }}
-              />
-              <h5>Futuristic tech stack</h5>
+            <div className="col-md-4">
+              <div className="text-center box-padding">
+                <img
+                  src="./images/eff.png"
+                  className="App-logo arrow"
+                  alt="logo"
+                  width={100}
+                />
+                <h5>Expertise in Cloud Technologies</h5>
 
-              <p className="arrowtext text-justify">
-                Our futuristic tech stack will accelerate the release cycle for
-                projects and expedite cloud operations while minimizing
-                operational costs and increasing efficiency.
-              </p>
+                <p className="arrowtext text-justify">
+                  We have a deep understanding of the latest cloud technologies
+                  and how to leverage them to modernize your applications. Our
+                  team is well-versed in various cloud platforms such as AWS,
+                  Azure, and Google Cloud, and can help you select the best
+                  platform for your needs.
+                </p>
+              </div>
             </div>
-          </div>
 
-          <div className="col-md-4">
-            <div className="text-center box-padding">
-              <img
-                src="./images/24:7.png"
-                className="App-logo"
-                alt="logo"
-                width={100}
-                style={{ height: "63px", width: "44px" }}
-              />
-              <h5>24*7 support</h5>
+            <div className="col-md-4">
+              <div className="text-center box-padding">
+                <img
+                  src="./images/robust.png"
+                  className="App-logo arrow"
+                  alt="logo"
+                  width={100}
+                />
+                <h5>End-to-end Support</h5>
 
-              <p className="arrowtext text-justify">
-                Facing any issues or have a query? Contact our support team
-                that’s available 24*7 to help you with the workload, cloud
-                technologies, or infrastructure.
-              </p>
+                <p className="arrowtext text-justify">
+                  We provide end-to-end support throughout the entire
+                  application modernization process. From initial assessment to
+                  deployment and ongoing maintenance, team Agilisium will be
+                  with you every step of the way.
+                </p>
+              </div>
             </div>
-          </div>
 
-          <div className="col-md-4">
-            <div className="text-center box-padding">
-              <img
-                src="./images/disaster.png"
-                className="App-logo"
-                alt="logo"
-                width={100}
-                style={{ height: "63px", width: "44px" }}
-              />
-              <h5>Disaster Recovery</h5>
+            <div className="col-md-4">
+              <div className="text-center box-padding">
+                <img
+                  src="./images/centered.png"
+                  className="App-logo arrow"
+                  alt="logo"
+                  width={100}
+                />
+                <h5>Tailored Solutions</h5>
 
-              <p className="arrowtext text-justify">
-                Ensure fast recovery of business-critical applications and
-                workloads with the help of cost-effective disaster recovery
-                environments.
-              </p>
+                <p className="arrowtext text-justify">
+                  Our solutions are tailored to meet the unique needs of your
+                  business. We take the time to understand your specific
+                  requirements and provide a customized solution that addresses
+                  your specific pain points.
+                </p>
+              </div>
             </div>
-          </div>
 
-          <div className="col-md-4">
-            <div className="text-center box-padding">
-              <img
-                src="./images/application.png"
-                className="App-logo"
-                alt="logo"
-                width={100}
-                style={{ height: "63px", width: "44px" }}
-              />
-              <h5>Availability Management</h5>
+            <div className="col-md-4">
+              <div className="text-center box-padding">
+                <img
+                  src="./images/endto.png"
+                  className="App-logo arrow"
+                  alt="logo"
+                  width={100}
+                />
+                <h5>Your Go-to Modernization Partner</h5>
 
-              <p className="arrowtext text-justify">
-                Implement an event-driven management architecture for a robust
-                and continuous monitoring system.
-              </p>
+                <p className="arrowtext text-justify">
+                  With a global clientele of satisfied customers, DataObserve
+                  has established itself as a trusted enterprise partner for
+                  application modernization solutions. Our goal is to deliver
+                  utmost customer satisfaction and we strive to exceed our
+                  clients' expectations.
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -1260,4 +1201,4 @@ const Devops = () => {
   );
 };
 
-export default Devops;
+export default Application;
